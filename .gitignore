@@ -5,6 +5,7 @@ node_modules
 yarn-error.log
 .vscode
 .DS_Store
+.env
 Thumbs.db
 $RECYCLE.BIN/
 
@@ -23,3 +24,4 @@ packages/debugger/.tmp
 # @truffle/contract
 packages/contract/dist
 node_modules
+contracts/artifacts/**

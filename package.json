@@ -10,6 +10,23 @@
     "erc721a": "^3.3.0",
     "keccak256": "^1.0.6",
     "merkletreejs": "^0.2.31",
-    "truffle": "^5.5.13"
+    "truffle": "^5.5.13",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.7.3"
+  },
+  "scripts": {
+    "compile": "truffle compile",
+    "debug": "remixd -s $(echo $PWD)  --remix-ide https://remix.ethereum.org",
+    "deploy": "yarn truffle deploy --network live",
+    "deploy-rinkeby": "yarn truffle deploy --network rinkeby",
+    "migrate": "truffle compile && truffle migrate --reset"
+  },
+  "devDependencies": {
+    "@remix-project/remixd": "^0.6.1",
+    "eslint": "^8.15.0",
+    "prettier": "^2.5.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.19",
+    "solhint": "^3.3.6",
+    "truffle-plugin-verify": "^0.5.20"
   }
 }
