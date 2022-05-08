@@ -1,0 +1,15 @@
+{
+  "name": "nft-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "frank7300228@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.6.0",
+    "dotenv": "^16.0.0",
+    "erc721a": "^3.3.0",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.2.31",
+    "truffle": "^5.5.13"
+  }
+}
